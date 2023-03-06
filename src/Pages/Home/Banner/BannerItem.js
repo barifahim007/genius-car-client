@@ -3,7 +3,7 @@ import React from 'react';
 const BannerItem = ({ slide }) => {
     const { image, id, prev, next } = slide;
     return (
-        <div id={`slider1${id}`} className="carousel-item relative w-full">
+        <div id={`slider1${id}`} className="carousel-item relative w-full my-20 rounded-lg">
             <div className='carusel-img'>
                 <img src={image} alt='' className="w-full" />
             </div>

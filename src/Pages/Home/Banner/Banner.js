@@ -8,6 +8,7 @@ import img6 from '../../../assets/images/banner/6.jpg'
 import './Banner.css'
 import BannerItem from './BannerItem';
 
+
 const bannerData = [
     {
         image: img1,
@@ -48,7 +49,7 @@ const bannerData = [
         image: img6,
         prev: 5,
         id: 6,
-        next: 1,
+        next: 1
 
     },
 
@@ -62,7 +63,6 @@ const Banner = () => {
                     slide={slide}
                 ></BannerItem>)
             }
-
 
 
         </div>
